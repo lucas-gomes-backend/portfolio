@@ -111,6 +111,7 @@ export function ExperienceSection() {
           </span>
         </a>
       </div>
+      <br></br>
       <div className="space-y-12">
         {experiences.map((exp, index) => (
           <div

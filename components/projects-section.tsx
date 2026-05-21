@@ -93,6 +93,7 @@ export function ProjectsSection() {
           </span>
         </a>
       </div>
+      <br></br>
       <div className="space-y-12 group/list">
         {projects.map((project, index) => (
           <div
