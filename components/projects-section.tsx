@@ -78,6 +78,21 @@ export function ProjectsSection() {
       <h2 className="mb-4 text-sm font-bold uppercase tracking-widest text-foreground lg:sr-only">
         Projects
       </h2>
+      <div className="mt-12">
+        <a
+          href="https://github.com/lucas-gomes-backend?tab=repositories"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group inline-flex items-center font-medium leading-tight text-foreground hover:text-primary"
+        >
+          <span className="border-b border-transparent pb-px transition group-hover:border-primary motion-reduce:transition-none">
+            Explore All Projects on GitHub
+          </span>
+          <span className="ml-1 whitespace-nowrap">
+            <Github className="ml-1 inline-block h-4 w-4 shrink-0 translate-y-px transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-focus-visible:-translate-y-1 group-focus-visible:translate-x-1 motion-reduce:transition-none" />
+          </span>
+        </a>
+      </div>
       <div className="space-y-12 group/list">
         {projects.map((project, index) => (
           <div
@@ -148,22 +163,7 @@ export function ProjectsSection() {
             </div>
           </div>
         ))}
-      </div>
-      <div className="mt-12">
-        <a
-          href="https://github.com/lucas-gomes-backend?tab=repositories"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="group inline-flex items-center font-medium leading-tight text-foreground hover:text-primary"
-        >
-          <span className="border-b border-transparent pb-px transition group-hover:border-primary motion-reduce:transition-none">
-            Explore All Projects on GitHub
-          </span>
-          <span className="ml-1 whitespace-nowrap">
-            <Github className="ml-1 inline-block h-4 w-4 shrink-0 translate-y-px transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-focus-visible:-translate-y-1 group-focus-visible:translate-x-1 motion-reduce:transition-none" />
-          </span>
-        </a>
-      </div>
+      </div>      
     </section>
   )
 }
