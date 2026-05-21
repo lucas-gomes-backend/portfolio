@@ -13,7 +13,7 @@ const socialLinks = [
   },
   {
     name: "Email",
-    href: "mailto:zlucasgcruz@gmail.com",
+    href: "https://mail.google.com/mail/?view=cm&fs=1&to=zlucasgcruz@gmail.com",
     icon: Mail,
   },
 ]

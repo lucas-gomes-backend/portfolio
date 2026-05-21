@@ -25,7 +25,9 @@ export function ContactSection() {
 
         <div className="mt-8">
           <a
-            href="mailto:zlucasgcruz@gmail.com"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=zlucasgcruz@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center justify-center rounded-md border border-primary bg-transparent px-6 py-3 text-sm font-medium text-primary transition-colors hover:bg-primary hover:text-primary-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background"
           >
             Send Message
