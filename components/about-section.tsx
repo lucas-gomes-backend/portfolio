@@ -2,7 +2,7 @@ export function AboutSection() {
   return (
     <section id="about" className="scroll-mt-24 lg:scroll-mt-0">
       <h2 className="mb-4 text-sm font-bold uppercase tracking-widest text-foreground lg:sr-only">
-        Sobre
+        About me
       </h2>
       <div className="space-y-4 text-muted-foreground leading-relaxed">
         <p>
