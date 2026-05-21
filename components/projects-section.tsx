@@ -93,7 +93,9 @@ export function ProjectsSection() {
           </span>
         </a>
       </div>
-      <br></br>
+      <div className="flex">
+        <br />
+      </div>
       <div className="space-y-12 group/list">
         {projects.map((project, index) => (
           <div
